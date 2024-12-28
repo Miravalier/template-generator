@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Template Generator</title>
+    <link rel="stylesheet" href="gwyth.css">
+    <link rel="icon" href="gwyth.png" type="image/png">
+    <script src="gwyth.js" type="module"></script>
+</head>
+
+<body>
+    <div class="row">
+        <h1>Template Generator</h1>
+    </div>
+    <div class="row">
+        <div class="label">Unit</div>
+        <select id="unit">
+            <option value="in" selected>Inches</option>
+            <option value="mm">Millimeters</option>
+            <option value="px">Pixels</option>
+        </select>
+    </div>
+    <div class="hidden row">
+        <div class="label">Pixels per Inch</div>
+        <input id="pixels-per-unit" type="number" value="100">
+    </div>
+    <div class="row">
+        <div class="label">Width</div>
+        <input id="width" type="number" value="8.5">
+    </div>
+    <div class="row">
+        <div class="label">Height</div>
+        <input id="height" type="number" value="11.0">
+    </div>
+    <div class="row">
+        <div class="label">Style</div>
+        <select id="style">
+            <option value="dot" selected>Dot</option>
+            <option value="line">Line</option>
+            <option value="graph">Graph</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="label">Inches between Dots</div>
+        <input id="distance" type="number" value="0.10">
+    </div>
+    <div class="hidden row">
+        <div class="label">Dot Size</div>
+        <input id="dot-size" type="number" value="0.01">
+    </div>
+</body>
+
+</html>

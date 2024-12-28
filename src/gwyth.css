@@ -1,0 +1,40 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #d5dde2;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #172027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+button {
+    padding: 4px;
+    color: rgb(24, 24, 32);
+}
+
+h1 {
+    margin: 18px;
+}
+
+#reveal {
+    font-size: 36px;
+    font-style: italic;
+    color: #646c79;
+}
+
+#category {
+    margin-bottom: 16px;
+}
