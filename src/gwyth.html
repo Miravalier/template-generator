@@ -15,38 +15,56 @@
     <div class="row">
         <div class="label">Unit</div>
         <select id="unit">
-            <option value="in" selected>Inches</option>
+            <option value="px" selected>Pixels</option>
+            <option value="in">Inches</option>
             <option value="mm">Millimeters</option>
-            <option value="px">Pixels</option>
         </select>
     </div>
     <div class="hidden row">
-        <div class="label">Pixels per Inch</div>
-        <input id="pixels-per-unit" type="number" value="100">
+        <div class="label"></div>
+        <input id="pixels-per-unit" type="number">
     </div>
     <div class="row">
         <div class="label">Width</div>
-        <input id="width" type="number" value="8.5">
+        <input id="width" type="number" value="900">
     </div>
     <div class="row">
         <div class="label">Height</div>
-        <input id="height" type="number" value="11.0">
+        <input id="height" type="number" value="1200">
     </div>
     <div class="row">
         <div class="label">Style</div>
         <select id="style">
             <option value="dot" selected>Dot</option>
-            <option value="line">Line</option>
+            <option value="line">Lined</option>
             <option value="graph">Graph</option>
         </select>
     </div>
     <div class="row">
-        <div class="label">Inches between Dots</div>
-        <input id="distance" type="number" value="0.10">
+        <div class="label">Pixels between Dots</div>
+        <input id="distance" type="number" value="10">
     </div>
-    <div class="hidden row">
-        <div class="label">Dot Size</div>
-        <input id="dot-size" type="number" value="0.01">
+    <div class="row">
+        <div class="label">Dot Size In Pixels</div>
+        <input id="size" type="number" value="1">
+    </div>
+    <div class="row">
+        <div class="label">Dot Color</div>
+        <input id="color" type="color" value="#000000">
+    </div>
+    <div class="row">
+        <div class="label">Background Color</div>
+        <input id="background-color" type="color" value="#ffffff">
+    </div>
+    <div class="row">
+        <div class="label">Margins</div>
+        <input id="margins" type="number" value="10">
+    </div>
+    <div class="button row">
+        <button id="preview">Preview Image</button>
+    </div>
+    <div class="button row">
+        <button id="download">Download Image</button>
     </div>
 </body>
 
